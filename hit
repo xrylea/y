@@ -1,0 +1,22 @@
+getgenv().etheral = {
+    script_key = {
+        script_key="free",
+    },
+    hitbox_expander = {
+        Enabled = true,
+        Size = 22.5,
+        Color = Color3.fromRGB(204, 0, 204),
+        Transparency = 0.2,
+    },
+    Visuals = {
+        Self = {
+            Enabled = true,
+            ForceField_Chams = true,
+            Color = Color3.fromRGB(204, 0, 204),
+            Held_ForceField_Chams = true,
+            Held_Color = Color3.fromRGB(0, 0, 0),
+        },
+    },
+}
+
+loadstring(game:HttpGet("https://pastebin.com/raw/df18fzP3"))()
